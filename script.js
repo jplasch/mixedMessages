@@ -26,7 +26,7 @@ const createMessage = () => {
                 break;
         }
     }
-}
+};
 
 // Create random message
 createMessage();
