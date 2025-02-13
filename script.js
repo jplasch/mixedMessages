@@ -16,7 +16,7 @@ const createMessage = () => {
         const randNum = Math.floor(Math.random() * msgObj[prop].length);
         switch (prop) {
             case 'planet':
-                console.log(`${msgObj[prop][randNum]} rules your desinty...`);
+                console.log(`${msgObj[prop][randNum]} rules your destiny...`);
                 break;
             case 'zodiac':
                 console.log(`Whilst the sign of ${msgObj[prop][randNum]} severs the threads of fate;`);
